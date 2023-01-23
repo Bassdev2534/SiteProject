@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>ระบบบันทึกข้อมูลการเข้างาน - ออกงาน</title>
+</head>
+<body>
+  
+  <!-- ฟอร์มบันทึกข้อมูล-->
+  <div class="testbox">
+    <form action="#">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-vcard" viewBox="0 0 16 16" >
+        <path d="M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5ZM9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8Zm1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5Z"/>
+        <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2ZM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H8.96c.026-.163.04-.33.04-.5C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1.006 1.006 0 0 1 1 12V4Z"/>
+      </svg>
+      <h1>ระบบบันทึกข้อมูลการ <span>&#10077;</span> เข้างาน - ออกงาน <span>&#10078;</span></h1>
+      <h4><span>&#10070;</span> กรุณาเลือกชื่อ - นามสกุล<span>*</span></h4>
+      <select>
+        <option value=""></option>
+        <option value="">พ.อ.ปรียพงษ์ สามิภักดิ์</option>
+        <option value="2">พ.ต.พิรพงศ์ คงสมพงษ์</option>
+        <option value="3">ร.ท.ชยานันต์ ลีลา</option>
+        <option value="4">นางสาวอรทัย ติยศิวาพร</option>
+        <option value="5">นายชาวุฒิ สงวนศักดิ์</option>
+        <option value="6">นายณรงค์ฤทธิ์ ศรีนวล</option>
+        <option value="7">นายภูริณัฐ ใหม่อ่อน</option>
+        <option value="8">นายรณฤทธิ์ พิลาไชย</option>
+        <option value="9">นางสาวกมลชนก นามหงษา</option>
+        <option value="10">นางสาววารีรัตน์ สุขก้อน</option>
+        <option value="11">นางสาวพุทธิเนตร สุดดีพงศ์</option>
+        <option value="12">นางสาวสุวิภาพร ศรีเนตร</option>
+        <option value="13">นางสาวขวัญทยา รวมทรัพย์</option>
+        <option value="14">นางสาวอชิรญา อนุตรวัฒนกุล</option>
+      </select>
+      <h4><span>&#10070;</span> ตำแหน่ง<span>*</span></h4>
+      <select>
+        <option value=""></option>
+        <option value="1">ผู้อำนวยการกอง</option>
+        <option value="2">รองผู้อำนวยการกอง</option>
+        <option value="3">เจ้าหน้าที่งานในพระองค์</option>
+        <option value="4">ลูกจ้างท้ายที่นั่ง</option>
+        <option value="5">ลูกจ้างประจำ</option>
+        <option value="6">ลูกจ้างชั่วคราวรายเดือน</option>
+      </select>
+      <h4><span>&#10070;</span> เวลาเข้า - ออกงาน<span>*</span></h4>
+      <div class="title-block">
+        <input type="date" name="bday">
+        <input type="time" " name="time"><input type="time" " name="time">
+      <select>
+        <option value="">หมายเหตุ (กรณีไม่มาปฏิบัติหน้าที่)</option>
+        <option value="">ลากิจ</option>
+        <option value="2">ลาป่วย</option>
+        <option value="3">ลาอุปสมบถ</option>
+        <option value="4">ลาคลอดบุตร</option>
+      </select>
+      </div>
+
+      <!-- ปุ่มบันทึกข้อมูล-->
+      <div class="btn-block">
+        <button type="submit" href="/"><span>&#10096;</span>  บันทึกข้อมูล  <span>&#10097;</span></button>
+      </div>
+    </form>
+  </div>
+
+</body>
+      
+</html>
